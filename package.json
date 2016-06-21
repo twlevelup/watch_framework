@@ -4,7 +4,8 @@
   "description": "framework to build a backbone watch",
   "main": "index.js",
   "scripts": {
-    "test": "karma start"
+    "test": "karma start",
+    "dist": "webpack"
   },
   "repository": {
     "type": "git",

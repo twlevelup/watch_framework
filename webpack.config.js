@@ -9,9 +9,10 @@ module.exports = {
     main: './index.js'
   },
   output: {
-    path: path.join(__dirname, 'public/'),
+    path: path.join(__dirname, 'dist/'),
     filename: '[name].js',
-    chunkFilename: '[chunkhash].js'
+    chunkFilename: '[chunkhash].js',
+    libraryTarget: 'commonjs'
   },
   module: {
     loaders: [
