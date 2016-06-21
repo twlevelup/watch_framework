@@ -1,7 +1,7 @@
 'use strict';
 
-var ViewWithButtons = require('../../src/js/framework/viewWithButtons'),
-    app = require('../../src/js/app');
+var ViewWithButtons = require('../src/viewWithButtons'),
+    app = require('./testApp');
 
 describe('A view with buttons', function() {
 

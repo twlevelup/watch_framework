@@ -11,7 +11,7 @@ var WatchNotification = ViewWithButtons.extend({
 
   className: 'notification',
 
-  template: require('../../templates/framework/watchNotification.hbs'),
+  template: require('./templates/watchNotification.hbs'),
 
   buttonEvents: {
     right: 'hide',

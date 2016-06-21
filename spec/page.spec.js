@@ -1,6 +1,6 @@
 'use strict';
 
-var Page = require('../../src/js/framework/page');
+var Page = require('../src/page');
 
 describe('A generic page', function() {
 

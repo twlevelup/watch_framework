@@ -6,7 +6,7 @@ var WatchFace = Backbone.View.extend({
 
   el: '.watch-placeholder',
 
-  template: require('../../templates/framework/watchFace.hbs'),
+  template: require('./templates/watchFace.hbs'),
 
   // TODO they should all use the same structure for IDs and classes to make things more consistent
   events: {
