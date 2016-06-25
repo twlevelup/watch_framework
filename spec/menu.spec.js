@@ -1,6 +1,6 @@
 'use strict';
 
-var PageWithMenu = require('../src/menu');
+var PageWithMenu = require('../lib/menu');
 
 describe('Page with menu', function() {
 

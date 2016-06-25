@@ -78,8 +78,7 @@ module.exports = function (config) {
 
 
     preprocessors: {
-      'spec/**/*spec.js': ['webpack', 'sourcemap'],
-      'src/js/index.js': ['webpack', 'sourcemap'],
+      'spec/**/*spec.js': ['webpack', 'sourcemap']
     },
 
     webpackMiddleware: {

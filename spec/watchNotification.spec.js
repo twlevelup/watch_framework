@@ -1,6 +1,6 @@
 'use strict';
 
-var WatchNotification = require('../src/watchNotification');
+var WatchNotification = require('../lib/watchNotification');
 
 describe('Watch Notifications', function() {
 

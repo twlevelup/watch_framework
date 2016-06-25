@@ -11,23 +11,15 @@ module.exports = {
   output: {
     path: path.join(__dirname, 'dist/'),
     filename: '[name].js',
-    chunkFilename: '[chunkhash].js',
-    libraryTarget: 'commonjs'
+    chunkFilename: '[chunkhash].js'
   },
   module: {
     loaders: [
-      {
-        test: /\.scss$/,
-        loaders: ['style', 'css', 'sass', 'sass?sourceMap']
-      },
       {
         test: /\.hbs/,
         loader: 'handlebars-template-loader'
       }
     ]
-  },
-  watchOptions: {
-    poll: true
   },
   plugins: [
     new webpack.ProvidePlugin({

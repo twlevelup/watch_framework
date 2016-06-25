@@ -1,6 +1,6 @@
 'use strict';
 
-var  eventHub = require('../src/eventHub');
+var  eventHub = require('../lib/eventHub');
 
 function App() {
   this.vent = eventHub;

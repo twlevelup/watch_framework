@@ -1,7 +1,7 @@
 'use strict';
 
-var Router = require('../src/router'),
-  PageView = require('../src/page');
+var Router = require('../lib/router'),
+  PageView = require('../lib/page');
 
 // TODO figure out how to test routes using navigate
 

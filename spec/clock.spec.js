@@ -1,6 +1,6 @@
 'use strict';
 
-var clock = require('../src/clock.js');
+var clock = require('../lib/clock.js');
 
 beforeEach(function() {
   // year, month, day, hour, minutes, seconds

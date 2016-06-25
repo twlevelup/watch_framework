@@ -1,7 +1,7 @@
 'use strict';
 
-var WatchFace = require('../src/watchFace'),
-  eventHub = require('../src/eventHub');
+var WatchFace = require('../lib/watchFace'),
+  eventHub = require('../lib/eventHub');
 
 describe('WatchFace', function() {
 

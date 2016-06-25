@@ -1,7 +1,7 @@
 'use strict';
 
-var NotificationForm = require('../src/watchNotificationsForm'),
-  eventHub = require('../src/eventHub');
+var NotificationForm = require('../lib/watchNotificationsForm'),
+  eventHub = require('../lib/eventHub');
 
 describe('Notifications form', function() {
   var notificationsForm, notificationsCfg;
