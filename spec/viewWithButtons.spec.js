@@ -1,7 +1,12 @@
 'use strict';
 
-var ViewWithButtons = require('../lib/viewWithButtons'),
-    app = require('./testApp');
+var ViewWithButtons = require('../lib/viewWithButtons');
+
+function App() {
+  this.vent = require('../lib/eventHub');
+}
+
+var app = new App();
 
 describe('A view with buttons', function() {
 
